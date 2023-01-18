@@ -1,0 +1,22 @@
+{
+  "name": "foodvillaapp",
+  "version": "1.0.0",
+  "description": "this is react application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibo777/FoodVillaApp.git"
+  },
+  "author": "Vaibhav Bunde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vibo777/FoodVillaApp/issues"
+  },
+  "homepage": "https://github.com/vibo777/FoodVillaApp#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
