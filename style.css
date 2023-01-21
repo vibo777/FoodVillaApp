@@ -1,0 +1,15 @@
+/* global css */
+
+.container{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.header{    
+    margin-top: 2.5%;
+    padding: 20px 0px;
+    background-color: #87CEEB;
+}
+.header .title {
+    background-color: #fff;
+    text-shadow: 2px 2px 4px #A0999B;
+}
