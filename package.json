@@ -18,5 +18,9 @@
   "homepage": "https://github.com/vibo777/FoodVillaApp#readme",
   "devDependencies": {
     "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
