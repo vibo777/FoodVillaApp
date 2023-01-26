@@ -2905,14 +2905,33 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
+// Element in react 
 const heading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     id: "title",
     children: '"Happy 74th Republic Day 2023"'
 }, "head", false, {
     fileName: "App.js",
-    lineNumber: 3,
+    lineNumber: 5,
     columnNumber: 17
 }, undefined);
+// A Functional Component in React 
+Dosomething = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "section",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+            children: " this is pure javascript function "
+        }, void 0, false, {
+            fileName: "App.js",
+            lineNumber: 12,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 11,
+        columnNumber: 10
+    }, undefined);
+};
+const string = "Namaste React";
 const Banner = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "Parent d-flex justify-content-center",
@@ -2922,7 +2941,18 @@ const Banner = ()=>{
                 children: " this is parent Div"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 8,
+                lineNumber: 18,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dosomething, {}, void 0, false, {
+                    fileName: "App.js",
+                    lineNumber: 20,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 19,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -2930,25 +2960,37 @@ const Banner = ()=>{
                 children: heading
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 9,
+                lineNumber: 22,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 7,
+        lineNumber: 17,
         columnNumber: 10
     }, undefined);
 };
 _c = Banner;
+const Body = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "container text-center",
+        children: string
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 29,
+        columnNumber: 10
+    }, undefined);
+};
+_c1 = Body;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Banner, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 15,
+    lineNumber: 34,
     columnNumber: 13
 }, undefined));
-var _c;
+var _c, _c1;
 $RefreshReg$(_c, "Banner");
+$RefreshReg$(_c1, "Body");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
