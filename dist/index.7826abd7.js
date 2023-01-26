@@ -2913,6 +2913,42 @@ const heading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     lineNumber: 3,
     columnNumber: 17
 }, undefined);
+const Banner = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "Parent d-flex justify-content-center",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "d-none",
+                children: " this is parent Div"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 8,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "child",
+                children: heading
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 7,
+        columnNumber: 10
+    }, undefined);
+};
+_c = Banner;
+const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Banner, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 15,
+    columnNumber: 13
+}, undefined));
+var _c;
+$RefreshReg$(_c, "Banner");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
